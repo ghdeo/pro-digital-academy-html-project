@@ -59,6 +59,13 @@
   header img {
     width: 2%;
   }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
   .title {
     color: #0470dc;
     font-size: 2vw;
@@ -120,6 +127,9 @@
   }
   .text p {
     color: gray;
+  }
+  .go {
+    width: 3vw;
   }
   .background_img {
     width: 100vw;
@@ -190,4 +200,8 @@
     width: 100vw;
     text-align: center;
   }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+}
+@media all and (max-width: 767px) {
 }
