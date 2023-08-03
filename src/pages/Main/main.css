@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce2 {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px); /* 시작 시점 변경 */
+  }
+  60% {
+    transform: translateY(-30px); /* 중간 시점 변경 */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 505vh;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 3px solid purple;
+  }
+  .second-container {
+    position: relative;
+    width: 100vw;
+    height: 210vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid red;
+  }
+  .last-container {
+    position: relative;
+    width: 100vw;
+    height: 195vh;
+    border: 3px solid green;
+  }
+  .background_img {
+    width: 100vw;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+  }
+  .background_img2 {
+    width: 100vw;
+    z-index: 0;
+    top: 0vh;
+    position: absolute;
+  }
+  .background_img3 {
+    width: 100vw;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+  }
+  .service_img {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    right: 13vw;
+    z-index: 1;
+  }
+  p {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20vh;
+    left: 20vw;
+  }
+  .category h3,
+  .category h2 {
+    margin: 0;
+  }
+
+  .category__list__item {
+    color: var(--color-white);
+    width: 25vw;
+    height: 30vh;
+  }
+
+  .category__list__item.first {
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+    z-index: 3;
+    background-image: url("../../assets/popup.svg");
+    background-size: cover;
+  }
+
+  .category__list__item.second {
+    position: absolute;
+    top: 40vh;
+    left: 44vw;
+    z-index: 3;
+    background-image: url("../../assets/hong.svg");
+    background-size: cover;
+  }
+
+  .category__list__item.third {
+    position: absolute;
+    top: 117vh;
+    left: 25vw;
+    z-index: 3;
+    background-image: url("../../assets/kim.svg");
+    background-size: cover;
+  }
+
+  .category__list__item.forth {
+    position: absolute;
+    top: 117vh;
+    left: 49vw;
+    z-index: 3;
+    background-image: url("../../assets/shopping.svg");
+    background-size: cover;
+  }
+
+  .category__list__item--overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .category__list__item:hover .category__list__item--overlay {
+    border: 10px white solid;
+    transition: 300ms ease-out all;
+  }
+  .people {
+    display: flex;
+    height: 110vh;
+    padding: 10vw;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid yellow;
+  }
+  .people img {
+    width: 15vw;
+    height: auto;
+  }
+  .person:nth-child(odd) img {
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  .person:nth-child(even) img {
+    animation-name: bounce2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  .person {
+    color: white;
+    text-align: center;
+  }
+}
