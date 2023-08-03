@@ -15,62 +15,7 @@ header{
             border:1px solid palegoldenrod;
             background-color: #0046FE;
         }
-            
-        ul.click_image{
-            text-align: right;
-        }
-            
-        ul.click_image li{
-            list-style: none;
-            display: inline-block;
-            margin-left:10px;
-        }
-        ul.click_image li a{
-            color:palevioletred;
-        }
-        .total{
-            display: flex;
-            flex-direction: column;
-        }
-        .mid{
-            display: flex;
-            flex-direction: row;
-        }
-        div aside{
-            display: none;
-            width:20%;
-            margin:1%;
-        }
-        ul li{
-            display: none;
-            list-style: none;
-        }
-    
-        #bar1{
-            display:hidden;
-            width:20%;
-            height: 40%;
-            text-align: center;
-            border:2px solid green;
-    
-        }
-        #bar2{
-            display:hidden;
-            width:20%;
-            height: 40%;
-            text-align: center;
-            border:2px solid blue;
-        }
-        #bar3{
-            display:hidden;
-            width:20%;
-            height: 40%;
-            text-align: center;
-            border:2px solid orange;
-        }
-        div article{
-            width:80%;
-        }
+
         #ppangppang{
             margin-top:10px;
             border:2px solid green;
@@ -129,28 +74,89 @@ header{
             color: silver;
             content:'"'
         }
-        .goods_img{
-            width:70%;
-            height:70%;
-        }
-        #ppangppang a{
-            color:green;
-            text-decoration: none;
-        }
-        #cass a{
-            color:blue;
-            text-decoration: none;
-        }
-        
-        #pokemon a{
-            color:orange;
-            text-decoration: none;
-        }
-        footer p{
-        text-align: center;
-        }
     
+  ul.click_image {
+    text-align: right;
+  }
 
+  ul.click_image li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    color:#e2d3f3
+  }
+  ul.click_image li a {
+    color: #e2d3f3;
+  }
+  .total {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+  }
+  .mid {
+    display: flex;
+    flex-direction: row;
+  }
+  div aside {
+    display: none;
+    width: 20%;
+    margin: 1%;
+  }
+  ul li {
+    display: none;
+    list-style: none;
+  }
+
+  #bar1 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid green;
+  }
+  #bar2 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid blue;
+  }
+  #bar3 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid orange;
+  }
+  div article {
+    width: 80%;
+  }
+
+  #ppangppang a {
+    color: green;
+    text-decoration: none;
+  }
+  #cass a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  #pokemon a {
+    color: orange;
+    text-decoration: none;
+  }
+  footer p {
+    text-align: center;
+    color: gray;
+    font-size: 0.5vw;
+  }
+  .goods_img {
+    width: 70%;
+    height: 40%;
+    border: 2px solid silver;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 }
 
@@ -163,11 +169,6 @@ header{
         text-align: center;
     }
 
-    header{
-        border:1px solid palegoldenrod;
-        background-color: rgb(1, 61, 196,0.8);
-    }
-        
     ul.click_image{
         text-align: right;
     }
@@ -196,6 +197,16 @@ header{
     ul li{
         list-style: none;
     }
+
+  header {
+    border: 1px solid palegoldenrod;
+    background-color: #0046fe;
+  }
+
+  nav ul li a{
+    color:black;
+  }
+
 
     #bar1{
         display: inline-block;
@@ -305,6 +316,38 @@ header{
     footer p{
         text-align: center;
     }
+
+  #pokemon h2 {
+    text-shadow: 4px 4px 8px orange;
+  }
+
+  #pokemon a {
+    color: orange;
+    text-decoration: none;
+  }
+
+  h2::before {
+    font-weight: bolder;
+    color: silver;
+    content: '"';
+  }
+  h2::after {
+    font-weight: bolder;
+    color: silver;
+    content: '"';
+  }
+  footer p {
+    text-align: center;
+    color: gray;
+    font-size: 0.5vw;
+  }
+  .goods_img {
+      width: 400px;
+      height: 400px;
+      border: 2px solid silver;
+      display: flex;
+      flex-wrap: wrap;
+  }
 
 }
     
