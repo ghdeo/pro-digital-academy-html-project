@@ -22,7 +22,7 @@ header {
   background-image: url("/src/pages/Gym/images/background.svg");
   background-size: cover;
   background-position: center bottom;
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   color: white;
 }
@@ -60,7 +60,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
@@ -107,6 +107,15 @@ section {
   text-align: left;
   padding-right: 20px;
 }
+
+.main-content-text h3 {
+  font-size: 1.4rem;
+}
+
+.main-content-text p {
+  font-size: 0.9rem;
+}
+
 .main-content img {
   margin-right: 15px;
 }
@@ -257,6 +266,6 @@ footer a {
   }
 
   header {
-    height: 50vh;
+    height: 60vh;
   }
 }
