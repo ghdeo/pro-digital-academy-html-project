@@ -27,6 +27,9 @@ header {
   color: white;
 }
 
+.toggle-menu-button {
+  display: none;
+}
 .text-container {
   text-align: left;
   padding-left: 11vh;
@@ -35,7 +38,7 @@ header {
 header h1 {
   padding-top: 10vh;
   font-size: 2.7rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 nav {
@@ -150,6 +153,11 @@ footer {
   background-color: #f7f7f7;
 }
 
+footer p, footer a {
+  text-decoration: none;
+  color: gray;
+}
+
 /* Scroll-to-top button styles */
 .scroll-to-top {
   position: fixed;
@@ -193,9 +201,23 @@ footer {
     height: 40vh; /* Reduce header height for mobile */
   }
 
+  nav {
+    display: none;
+    position: relative;
+    top: -150px;
+    left:-10px;
+    bottom:0;
+    width:30vw;
+    margin:2vw;
+    padding: 0;
+    /*background-image: url("/src/pages/Gym/images/background.svg");*/
+    opacity: 1;
+    /*background-color: rgb(42, 100, 245);*/
+  }
   nav ul {
     flex-direction: column; /* Change navigation to a vertical list for mobile */
-    display: none; /* Hide the normal navigation for mobile */
+    /*display: none; !* Hide the normal navigation for mobile *!*/
+    margin: 3vh;
   }
 
   nav ul.show {
@@ -207,18 +229,31 @@ footer {
     margin-bottom: 10px; /* Add margin below list items for mobile */
   }
 
-  .toggle-menu {
+  .toggle-menu-button {
     display: block;
+    margin-top:1vh;
+    margin-right:1vw;
+    width:25px;
+    height:25px;
+    color:transparent;
+    background:linear-gradient(#fff 50%, transparent 50%);
+    background-size: 100% 10px;
+
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+  }
+
+  .visible{
+    display: block;
+  }
+
+  .hide {
+    opacity: 0%;
   }
 }
 
-.toggle-menu-button {
-  background-color: transparent;
-  border: none;
-  color: #007bff;
-  font-size: 24px;
-  cursor: pointer;
-}
+
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .wrapper {
