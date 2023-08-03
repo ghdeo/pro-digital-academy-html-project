@@ -1,101 +1,273 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ju.css" />
-    <link rel="stylesheet" href="../../global.css" />
+    <link rel="stylesheet" href="ju.css">
+    <link rel="stylesheet" href="../../global.css">
   </head>
   <body>
-    <nav>
-      <a href="../Main/main.html"><p>ABOUT</p></a>
-      <a href="../Popup/seoyun_page.html"><p>POPUPSTORE</p></a>
-      <a href="../PhotoSpot/boyoung.html"><p>PHOTOSPOT</p></a>
-      <a href="../Gym/gym.html"><p>GYM</p></a>
-    </nav>
-    <div class="box1">
-      <div class="left">
-        <div class="map">
-          <img class="map_img" src="../../assets/map.jpg" alt="img1" />
-          <div class="loc1">
-            <img class="locate1" src="../../assets/location.png" alt="locate" />
-            <div class="location1">
-              옵스큐라 성수<br />주소 : 서울특별시 성동구 연무장길 101-1<br />
-              tel : 02-6235-0910 <br />13:00 - 20:00<br /><br />
-              성수동에 위치한 스타일리시하고 트렌디한 옷 가게입니다. <br />
-              남성복을 주로 취급하며, 다양한 스타일의 옷과 액세서리를 제공하고
-              있습니다. 모던하고 세련된 인테리어로 꾸며져 있으며,공간 안에는
-              다양한 브랜드의 옷들이 디스플레이되어 있어 고객들이 다양한 옵션을
-              선택할 수 있습니다. 가게의 컬렉션은 항상 최신 트렌드를 반영하고
-              있어 스타일리시한 분들에게 인기가 많습니다. 또한, 가게 내부에서는
-              주기적으로 패션 이벤트와 프로모션을 진행하여 고객들에게 특별한
-              혜택을 제공하고 있습니다. 스타일과 트렌드를 중시하는 분들께
-              추천드립니다. 만족스러운 쇼핑 경험과 멋진 옷들을 만나보세요!
+    <div class="snow">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1024 1536"
+        preserveAspectRatio="xMidYMax slice"
+      >
+        <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
+          <g id="snow-bottom-layer">
+            <ellipse cx="6" cy="1009.5" rx="6" ry="5.5" />
+            <ellipse cx="138" cy="1110.5" rx="6" ry="5.5" />
+            <ellipse cx="398" cy="1055.5" rx="6" ry="5.5" />
+            <ellipse cx="719" cy="1284.5" rx="6" ry="5.5" />
+            <ellipse cx="760" cy="1155.5" rx="6" ry="5.5" />
+            <ellipse cx="635" cy="1459.5" rx="6" ry="5.5" />
+            <ellipse cx="478" cy="1335.5" rx="6" ry="5.5" />
+            <ellipse cx="322" cy="1414.5" rx="6" ry="5.5" />
+            <ellipse cx="247" cy="1234.5" rx="6" ry="5.5" />
+            <ellipse cx="154" cy="1425.5" rx="6" ry="5.5" />
+            <ellipse cx="731" cy="773.5" rx="6" ry="5.5" />
+            <ellipse cx="599" cy="874.5" rx="6" ry="5.5" />
+            <ellipse cx="339" cy="819.5" rx="6" ry="5.5" />
+            <ellipse cx="239" cy="1004.5" rx="6" ry="5.5" />
+            <ellipse cx="113" cy="863.5" rx="6" ry="5.5" />
+            <ellipse cx="102" cy="1223.5" rx="6" ry="5.5" />
+            <ellipse cx="395" cy="1155.5" rx="6" ry="5.5" />
+            <ellipse cx="826" cy="943.5" rx="6" ry="5.5" />
+            <ellipse cx="626" cy="1054.5" rx="6" ry="5.5" />
+            <ellipse cx="887" cy="1366.5" rx="6" ry="5.5" />
+            <ellipse cx="6" cy="241.5" rx="6" ry="5.5" />
+            <ellipse cx="138" cy="342.5" rx="6" ry="5.5" />
+            <ellipse cx="398" cy="287.5" rx="6" ry="5.5" />
+            <ellipse cx="719" cy="516.5" rx="6" ry="5.5" />
+            <ellipse cx="760" cy="387.5" rx="6" ry="5.5" />
+            <ellipse cx="635" cy="691.5" rx="6" ry="5.5" />
+            <ellipse cx="478" cy="567.5" rx="6" ry="5.5" />
+            <ellipse cx="322" cy="646.5" rx="6" ry="5.5" />
+            <ellipse cx="247" cy="466.5" rx="6" ry="5.5" />
+            <ellipse cx="154" cy="657.5" rx="6" ry="5.5" />
+            <ellipse cx="731" cy="5.5" rx="6" ry="5.5" />
+            <ellipse cx="599" cy="106.5" rx="6" ry="5.5" />
+            <ellipse cx="339" cy="51.5" rx="6" ry="5.5" />
+            <ellipse cx="239" cy="236.5" rx="6" ry="5.5" />
+            <ellipse cx="113" cy="95.5" rx="6" ry="5.5" />
+            <ellipse cx="102" cy="455.5" rx="6" ry="5.5" />
+            <ellipse cx="395" cy="387.5" rx="6" ry="5.5" />
+            <ellipse cx="826" cy="175.5" rx="6" ry="5.5" />
+            <ellipse cx="626" cy="286.5" rx="6" ry="5.5" />
+            <ellipse cx="887" cy="598.5" rx="6" ry="5.5" />
+          </g>
+        </g>
+        <g fill="#FFF" fill-opacity=".3" transform="translate(65 63)">
+          <g id="snow-top-layer">
+            <circle cx="8" cy="776" r="8" />
+            <circle cx="189" cy="925" r="8" />
+            <circle cx="548" cy="844" r="8" />
+            <circle cx="685" cy="1115" r="8" />
+            <circle cx="858" cy="909" r="8" />
+            <circle cx="874" cy="1438" r="8" transform="rotate(180 874 1438)" />
+            <circle cx="657" cy="1256" r="8" transform="rotate(180 657 1256)" />
+            <circle cx="443" cy="1372" r="8" transform="rotate(180 443 1372)" />
+            <circle cx="339" cy="1107" r="8" transform="rotate(180 339 1107)" />
+            <circle cx="24" cy="1305" r="8" transform="rotate(180 24 1305)" />
+            <circle cx="8" cy="8" r="8" />
+            <circle cx="189" cy="157" r="8" />
+            <circle cx="548" cy="76" r="8" />
+            <circle cx="685" cy="347" r="8" />
+            <circle cx="858" cy="141" r="8" />
+            <circle cx="874" cy="670" r="8" transform="rotate(180 874 670)" />
+            <circle cx="657" cy="488" r="8" transform="rotate(180 657 488)" />
+            <circle cx="443" cy="604" r="8" transform="rotate(180 443 604)" />
+            <circle cx="339" cy="339" r="8" transform="rotate(180 339 339)" />
+            <circle cx="24" cy="537" r="8" transform="rotate(180 24 537)" />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="first-container">
+      <nav>
+        <a href="../Main/main.html"><p>ABOUT</p></a>
+        <a href="../Popup/seoyun_page.html"><p>POPUPSTORE</p></a>
+        <a href="../PhotoSpot/boyoung.html"><p>PHOTOSPOT</p></a>
+        <a href="../Gym/gym.html"><p>GYM</p></a>
+      </nav>
+      <div class="box1">
+        <div class="left">
+          <div class="map">
+            <img class="map_img" src="../../assets/map.jpg" alt="map">
+            <div class="loc1">
+              <img
+                class="locate1"
+                src="../../assets/location.png"
+                alt="locate"
+              >
+              <div class="location1">
+                옵스큐라 성수<br>주소 : 서울특별시 성동구 연무장길 101-1<br>
+                tel : 02-6235-0910 <br>13:00 - 20:00<br><br>
+                성수동에 위치한 스타일리시하고 트렌디한 옷 가게입니다. <br>
+                남성복을 주로 취급하며, 다양한 스타일의 옷과 액세서리를 제공하고
+                있습니다. 모던하고 세련된 인테리어로 꾸며져 있으며,공간 안에는
+                다양한 브랜드의 옷들이 디스플레이되어 있어 고객들이 다양한
+                옵션을 선택할 수 있습니다. 가게의 컬렉션은 항상 최신 트렌드를
+                반영하고 있어 스타일리시한 분들에게 인기가 많습니다. 또한, 가게
+                내부에서는 주기적으로 패션 이벤트와 프로모션을 진행하여
+                고객들에게 특별한 혜택을 제공하고 있습니다. 스타일과 트렌드를
+                중시하는 분들께 추천드립니다. 만족스러운 쇼핑 경험과 멋진 옷들을
+                만나보세요!
+              </div>
             </div>
-          </div>
-          <div class="loc2">
-            <img class="locate2" src="../../assets/location.png" alt="locate" />
-            <div class="location2">
-              플라스틱프로덕트 성수<br />주소 : 서울특별시 성동구 연무장길 89
-              4층<br />
-              tel : 0507-1474-4679 <br />12:00 - 20:00<br /><br />
-              성수동에 위치한 옷가게로 유니크하고 개성있는 의류와 악세서리를
-              판매하는 곳으로 유명합니다.. 옷가게 내부는 아늑하고 모던한
-              분위기로 꾸며져 있으며, 다양한 스타일의 의류와 악세서리를 즐길 수
-              있습니다. 또한 소재에 대한 집요한 선택과 디테일한 디자인이
-              매력적인 제품들을 만들어냅니다. 이곳에서는 유니크한 패션
-              아이템뿐만 아니라 한정판 제품들도 많이 찾아볼 수 있습니다. 매장
-              내부에서는 친절한 스태프들이 고객들을 도와주며, 고객들의 다양한
-              취향과 스타일에 맞는 아이템을 찾아주기도 합니다. 꽁꽁 숨겨져있는
-              가게를 찾아가보는 과정에서 특별한 재미를 느껴보세요!
+            <div class="loc2">
+              <img
+                class="locate2"
+                src="../../assets/location.png"
+                alt="locate"
+              >
+              <div class="location2">
+                플라스틱프로덕트 성수<br>주소 : 서울특별시 성동구 연무장길 89
+                4층<br>
+                tel : 0507-1474-4679 <br>12:00 - 20:00<br><br>
+                성수동에 위치한 옷가게로 유니크하고 개성있는 의류와 악세서리를
+                판매하는 곳으로 유명합니다.. 옷가게 내부는 아늑하고 모던한
+                분위기로 꾸며져 있으며, 다양한 스타일의 의류와 악세서리를 즐길
+                수 있습니다. 또한 소재에 대한 집요한 선택과 디테일한 디자인이
+                매력적인 제품들을 만들어냅니다. 이곳에서는 유니크한 패션
+                아이템뿐만 아니라 한정판 제품들도 많이 찾아볼 수 있습니다. 매장
+                내부에서는 친절한 스태프들이 고객들을 도와주며, 고객들의 다양한
+                취향과 스타일에 맞는 아이템을 찾아주기도 합니다. 꽁꽁 숨겨져있는
+                가게를 찾아가보는 과정에서 특별한 재미를 느껴보세요!
+              </div>
             </div>
-          </div>
-          <div class="loc3">
-            <img class="locate3" src="../../assets/location.png" alt="locate" />
-            <div class="location3">
-              PRTPRT SHOP<br />주소 : 서울 성동구 연무장길 29-17 2층<br />
-              tel : 0507-1310-9178 <br />12:00 - 20:00<br /><br />
-              패션 유튜버 짱구대디가 운영하는 성수동 편집샵입니다.<br />다양한
-              브랜드가 입점해 있어서 쇼핑하기도 좋고 트렌드한 패션을 볼 수 있는
-              공간이에요. 노티드 도넛 건물 2층이라는 걸 기억해 찾으시면 편하게
-              방문할 수 있어요. 베이직 하지만 포인트가 있는 패션 아이템을
-              좋아하시는 분들께 추천합니다. 겐조와 같은 해외 부티끄 제품들을
-              만나볼 수 있고, 유명한 국내 도메스틱 브랜드 제품들도 진열되어
-              있습니다. PRTPRT는 우리나라에서 현재 어떤 옷이 인기 있고, 트렌드를
-              이끌고 있는 지 한눈에 알 수 있습니다. 방문하셔서 재미나게 여름
-              가을 쇼핑하시면 좋겠습니다!
+            <div class="loc3">
+              <img
+                class="locate3"
+                src="../../assets/location.png"
+                alt="locate"
+              >
+              <div class="location3">
+                PRTPRT SHOP<br>주소 : 서울 성동구 연무장길 29-17 2층<br>
+                tel : 0507-1310-9178 <br>12:00 - 20:00<br><br>
+                패션 유튜버 짱구대디가 운영하는 성수동 편집샵입니다.<br>다양한
+                브랜드가 입점해 있어서 쇼핑하기도 좋고 트렌드한 패션을 볼 수
+                있는 공간이에요. 노티드 도넛 건물 2층이라는 걸 기억해 찾으시면
+                편하게 방문할 수 있어요. 베이직 하지만 포인트가 있는 패션
+                아이템을 좋아하시는 분들께 추천합니다. 겐조와 같은 해외 부티끄
+                제품들을 만나볼 수 있고, 유명한 국내 도메스틱 브랜드 제품들도
+                진열되어 있습니다. PRTPRT는 우리나라에서 현재 어떤 옷이 인기
+                있고, 트렌드를 이끌고 있는 지 한눈에 알 수 있습니다. 방문하셔서
+                재미나게 여름 가을 쇼핑하시면 좋겠습니다!
+              </div>
             </div>
-          </div>
-          <div class="loc4">
-            <img class="locate4" src="../../assets/location.png" alt="locate" />
-            <div class="location4">
-              비이커 성수점<br />주소 : 서울 성동구 연무장길 7-1 비이커 성수
-              플래그십스토어<br />
-              tel : 02-464-4750 <br />11:00 - 20:00<br /><br />
-              비이커 성수는 빛나는 청춘을 컨셉으로 하는 편집샵입니다.<br />
-              새로운 소재와 형태를 갖춘 오브제, 금속과 PVC 등 재료 특성이 뚜렷한
-              소재로 만든 테이블, 선반, 거울, 벤치, 행거 등으로 차별화된
-              공간에서 예술적 감도를 엿볼 수 있습니다. 젊은 세대가 좋아하는
-              가니, 후즈와 같은 에센셜 브랜드를 중심으로 하여 비이커 자체 브랜드
-              상품을 더 많이 보여줄 수 있게 꾸며져 있습니다. 매장 1층은 팝업
-              공간과 MZ 고객을 위한 트렌디 브랜드, 액세서리 등 라이프스타일
-              상품군 위주로 구성되어있고 비이커 성수점에서만 단독으로 판매하는
-              컬러 제품 등을 볼 수 있습니다. 3층은 메종키츠네, 단톤,
-              스포티&리치, 캐나다구스 등 남성부문에서 인기인 브랜드 위주로
-              운영하고 있습니다.
+            <div class="loc4">
+              <img
+                class="locate4"
+                src="../../assets/location.png"
+                alt="locate"
+              >
+              <div class="location4">
+                비이커 성수점<br>주소 : 서울 성동구 연무장길 7-1 비이커 성수
+                플래그십스토어<br>
+                tel : 02-464-4750 <br>11:00 - 20:00<br><br>
+                비이커 성수는 빛나는 청춘을 컨셉으로 하는 편집샵입니다.<br>
+                새로운 소재와 형태를 갖춘 오브제, 금속과 PVC 등 재료 특성이
+                뚜렷한 소재로 만든 테이블, 선반, 거울, 벤치, 행거 등으로
+                차별화된 공간에서 예술적 감도를 엿볼 수 있습니다. 젊은 세대가
+                좋아하는 가니, 후즈와 같은 에센셜 브랜드를 중심으로 하여 비이커
+                자체 브랜드 상품을 더 많이 보여줄 수 있게 꾸며져 있습니다. 매장
+                1층은 팝업 공간과 MZ 고객을 위한 트렌디 브랜드, 액세서리 등
+                라이프스타일 상품군 위주로 구성되어있고 비이커 성수점에서만
+                단독으로 판매하는 컬러 제품 등을 볼 수 있습니다. 3층은
+                메종키츠네, 단톤, 스포티&리치, 캐나다구스 등 남성부문에서 인기인
+                브랜드 위주로 운영하고 있습니다.
+              </div>
             </div>
           </div>
         </div>
+        <p class="intro">
+          성수역 근처,<br>
+          다양한 스타일과 브랜드가 한 자리에!<br>
+          힙한 분위기 속에서<br>
+          매일 새로운 스타일과 트렌드가 업데이트되는<br>
+          가게들이 기다리고 있어요.<br>함께 알아볼까요?<br>마크 표시에
+          마우스를 올려보세요!
+        </p>
       </div>
-      <p class="intro">
-        성수역 근처,<br />
-        다양한 스타일과 브랜드가 한 자리에!<br />
-        힙한 분위기 속에서<br />
-        매일 새로운 스타일과 트렌드가 업데이트되는<br />
-        가게들이 기다리고 있어요.<br />함께 알아볼까요?<br />마크 표시에
-        마우스를 올려보세요!
-      </p>
     </div>
+    <div class="second-container">
+      <img class="ss" src="../../assets/ss_1_1.svg" alt="ss">
+      <p class="ss_text">
+        <span>옵스큐라 성수</span><br>주소 : 서울특별시 성동구 연무장길
+        101-1<br>
+        tel : 02-6235-0910 <br>13:00 - 20:00<br><br>
+        성수동에 위치한 스타일리시하고 트렌디한 옷 가게입니다. <br>
+        남성복을 주로 취급하며, 다양한 스타일의 옷과 액세서리를 제공하고
+        있습니다. 모던하고 세련된 인테리어로 꾸며져 있으며,공간 안에는 다양한
+        브랜드의 옷들이 디스플레이되어 있어 고객들이 다양한 옵션을 선택할 수
+        있습니다. 가게의 컬렉션은 항상 최신 트렌드를 반영하고 있어 스타일리시한
+        분들에게 인기가 많습니다. 또한, 가게 내부에서는 주기적으로 패션 이벤트와
+        프로모션을 진행하여 고객들에게 특별한 혜택을 제공하고 있습니다. 스타일과
+        트렌드를 중시하는 분들께 추천드립니다. 만족스러운 쇼핑 경험과 멋진
+        옷들을 만나보세요!
+      </p>
+      <img class="ss" src="../../assets/ss_1_2.svg" alt="ss">
+    </div>
+    <div class="third-container">
+      <img class="ss" src="../../assets/ss_2_1.svg" alt="ss">
+      <p class="ss_text">
+        <span>플라스틱프로덕트 성수</span><br>주소 : 서울특별시 성동구
+        연무장길 89 4층<br>
+        tel : 0507-1474-4679 <br>12:00 - 20:00<br><br>
+        성수동에 위치한 옷가게로 유니크하고 개성있는 의류와 악세서리를 판매하는
+        곳으로 유명합니다.. 옷가게 내부는 아늑하고 모던한 분위기로 꾸며져
+        있으며, 다양한 스타일의 의류와 악세서리를 즐길 수 있습니다. 또한 소재에
+        대한 집요한 선택과 디테일한 디자인이 매력적인 제품들을 만들어냅니다.
+        이곳에서는 유니크한 패션 아이템뿐만 아니라 한정판 제품들도 많이 찾아볼
+        수 있습니다. 매장 내부에서는 친절한 스태프들이 고객들을 도와주며,
+        고객들의 다양한 취향과 스타일에 맞는 아이템을 찾아주기도 합니다. 꽁꽁
+        숨겨져있는 가게를 찾아가보는 과정에서 특별한 재미를 느껴보세요!
+      </p>
+      <img class="ss" src="../../assets/ss_2_2.svg" alt="ss">
+    </div>
+    <div class="fourth-container">
+      <img class="ss" src="../../assets/ss_3_1.svg" alt="ss">
+      <p class="ss_text">
+        <span>PRTPRT SHOP</span><br>주소 : 서울 성동구 연무장길 29-17 2층<br>
+        tel : 0507-1310-9178 <br>12:00 - 20:00<br><br>
+        패션 유튜버 짱구대디가 운영하는 성수동 편집샵입니다.<br>다양한
+        브랜드가 입점해 있어서 쇼핑하기도 좋고 트렌드한 패션을 볼 수 있는
+        공간이에요. 노티드 도넛 건물 2층이라는 걸 기억해 찾으시면 편하게 방문할
+        수 있어요. 베이직 하지만 포인트가 있는 패션 아이템을 좋아하시는 분들께
+        추천합니다. 겐조와 같은 해외 부티끄 제품들을 만나볼 수 있고, 유명한 국내
+        도메스틱 브랜드 제품들도 진열되어 있습니다. PRTPRT는 우리나라에서 현재
+        어떤 옷이 인기 있고, 트렌드를 이끌고 있는 지 한눈에 알 수 있습니다.
+        방문하셔서 재미나게 여름 가을 쇼핑하시면 좋겠습니다!
+      </p>
+      <img class="ss" src="../../assets/ss_3_2.svg" alt="ss">
+    </div>
+    <div class="fifth-container">
+      <img class="ss" src="../../assets/ss_4_1.svg" alt="ss">
+      <p class="ss_text">
+        <span>비이커 성수점</span><br>주소 : 서울 성동구 연무장길 7-1 비이커
+        성수 플래그십스토어<br>
+        tel : 02-464-4750 <br>11:00 - 20:00<br><br>
+        비이커 성수는 빛나는 청춘을 컨셉으로 하는 편집샵입니다.<br>
+        새로운 소재와 형태를 갖춘 오브제, 금속과 PVC 등 재료 특성이 뚜렷한
+        소재로 만든 테이블, 선반, 거울, 벤치, 행거 등으로 차별화된 공간에서
+        예술적 감도를 엿볼 수 있습니다. 젊은 세대가 좋아하는 가니, 후즈와 같은
+        에센셜 브랜드를 중심으로 하여 비이커 자체 브랜드 상품을 더 많이 보여줄
+        수 있게 꾸며져 있습니다. 매장 1층은 팝업 공간과 MZ 고객을 위한 트렌디
+        브랜드, 액세서리 등 라이프스타일 상품군 위주로 구성되어있고 비이커
+        성수점에서만 단독으로 판매하는 컬러 제품 등을 볼 수 있습니다. 3층은
+        메종키츠네, 단톤, 스포티&리치, 캐나다구스 등 남성부문에서 인기인 브랜드
+        위주로 운영하고 있습니다.
+      </p>
+      <img class="ss" src="../../assets/ss_4_2.svg" alt="ss">
+    </div> 
+    <footer> 
+      <hr>
+      <p>
+        github : https://github.com/ghdeo/pro-digital-academy-html-project<br>
+        copyright © 이김김홍
+      </p>
+    </footer>
   </body>
 </html>
