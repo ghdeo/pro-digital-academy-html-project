@@ -16,6 +16,10 @@
     right: 0;
     display: block;
   }
+  .a h3{
+    margin-top: 3rem;
+    text-align: center;
+  }
   header h1 {
     display: inline-block;
     color: white;
@@ -88,7 +92,7 @@
   .spot_top2,
   .spot_top3,
   .spot_top4 {
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-top: 1px solid blue;
   }
 
@@ -163,6 +167,10 @@
     right: 0;
     display: block;
   }
+  .a h3{
+    margin-top: 3rem;
+    text-align: center;
+  }
   header h1 {
     display: inline-block;
     color: white;
@@ -235,7 +243,7 @@
   .spot_top2,
   .spot_top3,
   .spot_top4 {
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-top: 1px solid blue;
   }
 
@@ -310,6 +318,7 @@
     right: 0;
     display: block;
   }
+  
   header h1 {
     display: inline-block;
     color: white;
@@ -359,13 +368,18 @@
     color: silver;
   }
 
-  .a {
+  .pop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 20rem;
+    margin-top: 1rem;
+  }
+
+  .a h3{
+    margin-top: 17rem;
+    text-align: center;
   }
 
   .rooptop,
@@ -476,7 +490,6 @@
   }
   .img {
     transform: scale(1);
-    transform: transform 0.3s;
   }
   .img:hover {
     animation: scaleAnimation 0.3s forwards;
