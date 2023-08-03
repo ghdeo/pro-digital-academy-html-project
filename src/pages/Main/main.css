@@ -42,42 +42,89 @@
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    height: 505vh;
-    margin: 0;
-    padding: 0;
+  header {
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 4px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.12);
+  }
+  header img {
+    width: 2%;
+  }
+  .title {
+    color: #0470dc;
+    font-size: 2vw;
+  }
+  .content {
+    color: #bbddff;
+    font-size: 1vw;
+    position: absolute;
+    z-index: 1;
+    top: 45vh;
+    left: 20vw;
   }
   .container {
     position: relative;
     width: 100vw;
-    height: 100vh;
-    border: 3px solid purple;
+    height: 92vh;
   }
   .second-container {
-    position: relative;
+    height: 92vh;
     width: 100vw;
-    height: 210vh;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    border: 3px solid red;
+    background: linear-gradient(white, #0470dc1a);
+    padding: 10vh;
   }
-  .last-container {
-    position: relative;
+  .third-container {
+    height: 92vh;
     width: 100vw;
-    height: 195vh;
-    border: 3px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#0470dc1a, white);
+    padding: 10vh;
+  }
+  .fourth-container {
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(white, #0470dc1a);
+    padding: 10vh;
+  }
+  .fourth-container img {
+    width: 40%;
+  }
+  .fifth-container {
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#0470dc1a, white);
+    padding: 10vh;
+  }
+  .text h2 {
+    color: #0470dc;
+  }
+  .text p {
+    color: gray;
   }
   .background_img {
     width: 100vw;
     height: auto;
     z-index: 0;
-    position: absolute;
-  }
-  .background_img2 {
-    width: 100vw;
-    z-index: 0;
-    top: 0vh;
     position: absolute;
   }
   .background_img3 {
@@ -94,7 +141,7 @@
     right: 13vw;
     z-index: 1;
   }
-  p {
+  .title_c {
     font-size: 5rem;
     font-weight: bold;
     color: white;
@@ -103,75 +150,24 @@
     top: 20vh;
     left: 20vw;
   }
-  .category h3,
-  .category h2 {
-    margin: 0;
-  }
-
-  .category__list__item {
-    color: var(--color-white);
-    width: 25vw;
-    height: 30vh;
-  }
-
-  .category__list__item.first {
-    position: absolute;
-    top: 40vh;
-    left: 20vw;
-    z-index: 3;
-    background-image: url("../../assets/popup.svg");
-    background-size: cover;
-  }
-
-  .category__list__item.second {
-    position: absolute;
-    top: 40vh;
-    left: 44vw;
-    z-index: 3;
-    background-image: url("../../assets/hong.svg");
-    background-size: cover;
-  }
-
-  .category__list__item.third {
-    position: absolute;
-    top: 117vh;
-    left: 25vw;
-    z-index: 3;
-    background-image: url("../../assets/kim.svg");
-    background-size: cover;
-  }
-
-  .category__list__item.forth {
-    position: absolute;
-    top: 117vh;
-    left: 49vw;
-    z-index: 3;
-    background-image: url("../../assets/shopping.svg");
-    background-size: cover;
-  }
-
-  .category__list__item--overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .category__list__item:hover .category__list__item--overlay {
-    border: 10px white solid;
-    transition: 300ms ease-out all;
-  }
   .people {
-    display: flex;
-    height: 110vh;
+    text-align: center;
+    height: 92vh;
+    width: 100vw;
     padding: 10vw;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid yellow;
+    background: linear-gradient(white, #0470dc1a, white);
+  }
+  .made_text {
+    color: #0470dc;
   }
   .people img {
     width: 15vw;
     height: auto;
+  }
+  .made {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .person:nth-child(odd) img {
     animation-name: bounce;
@@ -184,7 +180,14 @@
     animation-iteration-count: infinite;
   }
   .person {
-    color: white;
+    color: #77aee6;
+    text-align: center;
+  }
+  footer {
+    color: gray;
+    font-size: 0.5vw;
+    height: 15vh;
+    width: 100vw;
     text-align: center;
   }
 }
