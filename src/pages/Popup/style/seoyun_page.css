@@ -1,8 +1,7 @@
-header{
-    border:2px solid #013DC4;
-    padding:15px;
+header {
+  border: 2px solid #013dc4;
+  padding: 15px;
 }
-
 @media screen and (max-width:767px)
 {
         header h1{
@@ -158,17 +157,156 @@ header{
     flex-wrap: wrap;
   }
 
+  ul.click_image {
+    text-align: right;
+  }
+
+  ul.click_image li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  ul.click_image li a {
+    color: palevioletred;
+  }
+  .total {
+    display: flex;
+    flex-direction: column;
+  }
+  .mid {
+    display: flex;
+    flex-direction: row;
+  }
+  div aside {
+    display: none;
+    width: 20%;
+    margin: 1%;
+  }
+  ul li {
+    display: none;
+    list-style: none;
+  }
+
+  #bar1 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid green;
+  }
+  #bar2 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid blue;
+  }
+  #bar3 {
+    display: hidden;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid orange;
+  }
+  div article {
+    width: 80%;
+  }
+  #ppangppang {
+    margin-top: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #fcf6f5 50%, green);
+    padding: 20px;
+  }
+  #ppangppang h2 {
+    text-shadow: 4px 4px 8px green;
+  }
+
+  #cass {
+    margin-top: 10px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    background-image: linear-gradient(to bottom, #fcf6f5 50%, blue);
+  }
+
+  #cass h2 {
+    text-shadow: 4px 4px 8px blue;
+  }
+
+  #pokemon {
+    margin-top: 10px;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    background-image: linear-gradient(to bottom, #fcf6f5 50%, orange);
+  }
+
+  #pokemon h2 {
+    text-shadow: 4px 4px 8px orange;
+  }
+
+  h2::before {
+    font-weight: bolder;
+    color: silver;
+    content: '"';
+  }
+  h2::after {
+    font-weight: bolder;
+    color: silver;
+    content: '"';
+  }
+  .goods_img {
+    width: 70%;
+    height: 70%;
+  }
+  #ppangppang a {
+    color: green;
+    text-decoration: none;
+  }
+  #cass a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  #pokemon a {
+    color: orange;
+    text-decoration: none;
+  }
+  footer p {
+    text-align: center;
+    color: gray;
+    font-size: 0.5vw;
+  }
 }
 
-@media screen and (min-width:768px)
-{
-    
-    header h1{
-        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
-        font-size: 50px;
-        text-align: center;
-    }
+@media screen and (min-width: 768px) {
+  header h1 {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    font-size: 50px;
+    text-align: center;
+  }
 
+  header {
+    border: 1px solid palegoldenrod;
+    background-color: rgb(1, 61, 196, 0.8);
+  }
+
+  ul.click_image {
+    text-align: right;
+  }
     ul.click_image{
         text-align: right;
     }
@@ -206,116 +344,53 @@ header{
   nav ul li a{
     color:black;
   }
-
-
     #bar1{
         display: inline-block;
         width:20%;
         height: 40%;
         text-align: center;
-        border:2px solid green;
+        border:2px solid green;  
 
-    }
-    #bar2{
-        display: inline-block;
-        width:20%;
-        height: 50%;
-        text-align: center;
-        border:2px solid blue;
-    }
-    #bar3{
-        display: inline-block;
-        width:20%;
-        height: 40%;
-        text-align: center;
-        border:2px solid orange;
-    }
-    #bar2 h4:hover{
-        color:#8AAAE5;
-    }
-    div article{
-        width:80%;
-    }
-    #ppangppang{
-        margin-top:10px;
-        border:2px solid green;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color:green;
-        margin-top:20px;
-        background-image: linear-gradient(to bottom, #FCF6F5 50%,green );
-        margin-bottom: 1%;
-    }
-    #ppangppang h2{
-        text-shadow: 4px 4px 8px green;
-    }
-    
-    #ppangppang a{
-        color:green;
-        text-decoration: none;
-    }
-    
-    .goods_img{
-        margin-bottom:5%;
-    }
+  #ppangppang a {
+    color: green;
+    text-decoration: none;
+  }
 
-    #cass{
-        margin-top:10px;
-        border:2px solid blue;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color : blue;
-        background-image: linear-gradient(to bottom, #FCF6F5 50%, blue);
-        margin-bottom: 1%;
-    }
+  .goods_img {
+    margin-bottom: 5%;
+  }
 
-    #cass h2{
-        text-shadow: 4px 4px 8px blue;
-    }
+  #cass {
+    margin-top: 10px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    background-image: linear-gradient(to bottom, #fcf6f5 50%, blue);
+    margin-bottom: 1%;
+  }
 
-    #cass a{
-        color:blue;
-        text-decoration: none;
-    }
+  #cass h2 {
+    text-shadow: 4px 4px 8px blue;
+  }
 
-    #pokemon{
-        margin-top:10px;
-        border:2px solid orange;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color : orange;
-        background-image: linear-gradient(to bottom, #FCF6F5 50%, orange);
-    }
+  #cass a {
+    color: blue;
+    text-decoration: none;
+  }
 
-    #pokemon h2{
-        text-shadow: 4px 4px 8px orange;
-    }
-
-    #pokemon a{
-        color:orange;
-        text-decoration: none;
-    }
-
-    h2::before{
-        font-weight: bolder;
-        color: silver;
-        content:'"'
-    }
-    h2::after{
-        font-weight: bolder;
-        color: silver;
-        content:'"'
-    }
-    footer p{
-        text-align: center;
-    }
+  #pokemon {
+    margin-top: 10px;
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    background-image: linear-gradient(to bottom, #fcf6f5 50%, orange);
+  }
 
   #pokemon h2 {
     text-shadow: 4px 4px 8px orange;
@@ -325,7 +400,14 @@ header{
     color: orange;
     text-decoration: none;
   }
+  #pokemon h2 {
+    text-shadow: 4px 4px 8px orange;
+  }
 
+  #pokemon a {
+    color: orange;
+    text-decoration: none;
+  }
   h2::before {
     font-weight: bolder;
     color: silver;
@@ -348,6 +430,4 @@ header{
       display: flex;
       flex-wrap: wrap;
   }
-
 }
-    
