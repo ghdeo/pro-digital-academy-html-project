@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "YeongdeokHaeparang";
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/YeongdeokHaeparang.otf") format("truetype"),
+    url("assets/fonts/YeongdeokHaeparang.ttf") format("ttf"),
+    url("assets/fonts/YeongdeokHaeparang.woff") format("woff");
+}
+body {
+  font-family: "YeongdeokHaeparang", sans-serif;
+}
