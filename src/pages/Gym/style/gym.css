@@ -50,12 +50,11 @@ nav ul {
   margin: 0 0 0 8vh;
   padding: 0;
   display: flex;
-  justify-content: left; /* Center the list items */
-  /*margin-left: 8vh;*/
+  justify-content: left;
 }
 
 nav li {
-  margin-right: 15px; /* Add spacing between list items */
+  margin-right: 15px;
 }
 
 nav a {
@@ -134,7 +133,7 @@ table.info-table {
 table td {
   padding: 10px;
   border: 1px solid #ccc;
-  width: 50%; /* Set the columns to have equal width */
+  width: 50%;
 }
 
 table td:first-child {
@@ -153,7 +152,8 @@ footer {
   background-color: #f7f7f7;
 }
 
-footer p, footer a {
+footer p,
+footer a {
   text-decoration: none;
   color: gray;
 }
@@ -194,29 +194,27 @@ footer p, footer a {
 
 @media all and (max-width: 767px) {
   .wrapper {
-    width: 80%; /* Adjust the width to full for mobile */
+    width: 80%;
   }
 
   header {
-    height: 40vh; /* Reduce header height for mobile */
+    height: 40vh;
   }
 
   nav {
     display: none;
     position: relative;
     top: -150px;
-    left:-10px;
-    bottom:0;
-    width:30vw;
-    margin:2vw;
+    left: -10px;
+    bottom: 0;
+    width: 30vw;
+    margin: 2vw;
     padding: 0;
-    /*background-image: url("/src/pages/Gym/images/background.svg");*/
     opacity: 1;
-    /*background-color: rgb(42, 100, 245);*/
   }
+
   nav ul {
-    flex-direction: column; /* Change navigation to a vertical list for mobile */
-    /*display: none; !* Hide the normal navigation for mobile *!*/
+    flex-direction: column;
     margin: 3vh;
   }
 
@@ -225,18 +223,18 @@ footer p, footer a {
   }
 
   nav li {
-    margin-right: 0; /* Remove margin between list items for mobile */
-    margin-bottom: 10px; /* Add margin below list items for mobile */
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .toggle-menu-button {
     display: block;
-    margin-top:1vh;
-    margin-right:1vw;
-    width:25px;
-    height:25px;
-    color:transparent;
-    background:linear-gradient(#fff 50%, transparent 50%);
+    margin-top: 1vh;
+    margin-right: 1vw;
+    width: 25px;
+    height: 25px;
+    color: transparent;
+    background: linear-gradient(#fff 50%, transparent 50%);
     background-size: 100% 10px;
 
     position: absolute;
@@ -244,7 +242,7 @@ footer p, footer a {
     left: 1vh;
   }
 
-  .visible{
+  .visible {
     display: block;
   }
 
@@ -253,14 +251,12 @@ footer p, footer a {
   }
 }
 
-
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .wrapper {
-    width: 80%; /* Adjust the width for tablets */
+    width: 80%;
   }
 
   header {
-    height: 50vh; /* Reduce header height for tablets */
+    height: 50vh;
   }
 }
