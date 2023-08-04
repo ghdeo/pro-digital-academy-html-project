@@ -26,6 +26,12 @@
 - HTML
 - CSS
 
+## 각자 진행한 파트 
+- <b>홍보영</b> : PhotoSpot 폴더 내 boyoung.html, boyoung.css 작성 <br> + 와이어프레임 개별 작성 (피그마), 서울 포토 스팟 추천 페이지 파트 ppt 초안 작성
+- <b>김서윤</b> : Popup 폴더 내 seoyun_page.html, seoyun_page.css 작성 <br> + 와이어프레임 개별 작성 (피그마), 팝업 스토어 추천 페이지 파트 ppt 초안 작성
+- <b>김성범</b> : Gym 폴더 내 gym.html, gym.css 작성 <br> + 와이어프레임 개별 작성 (피그마), 헬스장 추천 페이지 파트 ppt 초안 작성
+- <b>이주현</b> : ManShop 폴더 내 shop.html, shop.css, Main 폴더 내 main.html, main.css, src 폴더 내 global.css 작성 <br> + 와이어프레임 개별 작성 (피그마), 랜딩 페이지, 남자옷 소개 추천 페이지 ppt 제작, 초안 취합 후 ppt 정리, 전체 ppt 디자인 구성 및 제작 
+
 <h2>Commit message</h2> 
  
 - feat : 새로운 기능 추가  
