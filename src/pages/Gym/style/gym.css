@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-image: url("/src/assets/road.svg");
+  background-image: url("../images/body-background.jpg");
   background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body {
 
 header {
   text-align: center;
-  background-image: url("/src/pages/Gym/images/background.svg");
+  background-image: url("../images/background.svg");
   background-size: cover;
   background-position: center bottom;
   height: 70vh;
