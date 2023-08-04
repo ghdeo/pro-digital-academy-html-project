@@ -46,28 +46,23 @@ a:visited {
   100% {
     transform: translateY(0);
   }
+} 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.12);
 }
 .first-container {
   background-image: url("../../assets/juback8.svg");
   background-size: cover;
-}
-.second-container,
-.fourth-container {
-  height: 95vh;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: linear-gradient(white, #0470dc1a);
-}
-.third-container,
-.fifth-container {
-  height: 95vh;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: linear-gradient(#0470dc1a, white);
 }
 .ss {
   width: 25%;
@@ -101,20 +96,25 @@ footer {
   text-align: center;
   align-items: center;
 }
-@media all and (min-width: 1024px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5vh;
-    width: 100vw;
-    background-color: white;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.12);
-  }
+@media all and (min-width: 1024px) { 
+  .second-container,
+.fourth-container {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(white, #0470dc1a);
+}
+.third-container,
+.fifth-container {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#0470dc1a, white);
+}
   .map {
     width: 20vw;
     overflow: visible;
@@ -234,12 +234,24 @@ footer {
     -webkit-text-stroke: 0.02vw #0470dc;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1023px) {
-  nav {
+@media all and (min-width: 768px) and (max-width: 1023px) { 
+  .second-container,
+  .fourth-container {
+    height: 55vh;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
-    height: 5vh;
-    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(white, #0470dc1a);
+  }
+  .third-container,
+  .fifth-container {
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#0470dc1a, white);
   }
   .map {
     width: 20vw;
@@ -360,12 +372,24 @@ footer {
     -webkit-text-stroke: 0.02vw #0470dc;
   }
 }
-@media all and (max-width: 767px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    height: 5vh;
+@media all and (max-width: 767px) { 
+  .second-container,
+  .fourth-container {
+    height: 65vh;
     width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(white, #0470dc1a);
+  }
+  .third-container,
+  .fifth-container {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#0470dc1a, white);
   }
   .map {
     width: 40vw;
